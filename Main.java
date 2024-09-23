@@ -14,16 +14,19 @@ public class Main
       double dis = Math.sqrt(((x2 - x) * (x2 - x)) + ((y2 - y) * (y2 - y)));
       return(dis);
     }
+
   // implement one of your quadratic formula methods here
   public static double quadPos(double a, double b, double c)
   {
     double ans = (-b + Math.sqrt((b * b) - (4 * a * c)))/(2 * a);
     return(ans);
   }
+
   // implement the other quadratic formula here
   public static double quadNeg(double a, double b, double c)
   {
     double ans = (-b - Math.sqrt((b * b) - (4 * a * c)))/(2 * a);
     return(ans);
   }
+  
 }
